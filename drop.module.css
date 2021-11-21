@@ -1,0 +1,69 @@
+.dropdown {
+  width: 400px;
+  user-select: none;
+  margin: 100px auto;
+  position: relative;
+}
+.dropdown_input {
+  padding: 10px;
+  background: lightgreen;
+  box-shadow: 3px 5px 10px 6px black;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+  color: #333;
+  width: 95%;
+  align-items: center;
+  cursor: pointer;
+  justify-content: space-between;
+}
+.dropdown_content {
+  position: absolute;
+  top: 110%;
+  left: 0;
+  overflow-y: auto;
+  border: #333;
+  box-shadow: 3px 5px 10px 6px black;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 500;
+  color: black;
+  width: 100%;
+  height: auto;
+  max-height: 500%;
+}
+.dropdown_div {
+  position: absolute;
+  top: 110%;
+  left: 0;
+  padding: 12px;
+  box-shadow: 1px 5px 10px 6px black;
+  font-weight: 500;
+  color: black;
+  width: 95%;
+  height: 40%;
+}
+.dropdown_item {
+  padding: 10px;
+  cursor: pointer;
+}
+.dropdown_item:hover {
+  background: lightpink;
+}
+.city_code {
+  float: right;
+}
+
+.reset {
+  cursor: pointer;
+  color: grey;
+  border: 2px dotted greenyellow;
+  padding: 5px;
+  position: absolute;
+  right: 0%;
+  top: 4%;
+  left: 99%;
+}
+.span {
+  border: 2px solid lightcoral;
+  width: 95%;
+  padding: 5px;
+}
